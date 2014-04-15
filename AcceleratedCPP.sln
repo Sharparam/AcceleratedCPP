@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringSplitter", "StringSpl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framer", "Framer\Framer.vcxproj", "{8173B0AE-317E-43A7-9A7F-ED7243985D92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permute", "Permute\Permute.vcxproj", "{6AB08167-4195-4D7D-8FDD-6A0D4DF7BB1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Debug|Win32.Build.0 = Debug|Win32
 		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Release|Win32.ActiveCfg = Release|Win32
 		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Release|Win32.Build.0 = Release|Win32
+		{6AB08167-4195-4D7D-8FDD-6A0D4DF7BB1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AB08167-4195-4D7D-8FDD-6A0D4DF7BB1E}.Debug|Win32.Build.0 = Debug|Win32
+		{6AB08167-4195-4D7D-8FDD-6A0D4DF7BB1E}.Release|Win32.ActiveCfg = Release|Win32
+		{6AB08167-4195-4D7D-8FDD-6A0D4DF7BB1E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
