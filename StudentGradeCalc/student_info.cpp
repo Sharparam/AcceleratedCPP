@@ -32,3 +32,27 @@ std::istream& read_hw(std::istream& in, std::vector<double>& hw)
 
 	return in;
 }
+
+bool fgrade(const Student_info& s)
+{
+	return s.final_grade < 60;
+}
+
+student_list_t extract_fails(student_list_t &students)
+{
+	student_list_t fail;
+	student_list_i iter = students.begin();
+
+	while (iter != students.end())
+	{
+		if (fgrade(*iter))
+		{
+			fail.push_back(*iter);
+			iter = students.erase(iter);
+		}
+		else
+			iter++;
+	}
+
+	return fail;
+}

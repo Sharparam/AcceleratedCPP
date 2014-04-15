@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WordCounter", "WordCounter\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorAverage", "VectorAverage\VectorAverage.vcxproj", "{0A197962-DD5A-4CCE-A691-D6086CB97317}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringSplitter", "StringSplitter\StringSplitter.vcxproj", "{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framer", "Framer\Framer.vcxproj", "{8173B0AE-317E-43A7-9A7F-ED7243985D92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{0A197962-DD5A-4CCE-A691-D6086CB97317}.Debug|Win32.Build.0 = Debug|Win32
 		{0A197962-DD5A-4CCE-A691-D6086CB97317}.Release|Win32.ActiveCfg = Release|Win32
 		{0A197962-DD5A-4CCE-A691-D6086CB97317}.Release|Win32.Build.0 = Release|Win32
+		{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}.Debug|Win32.Build.0 = Debug|Win32
+		{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}.Release|Win32.ActiveCfg = Release|Win32
+		{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}.Release|Win32.Build.0 = Release|Win32
+		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Debug|Win32.Build.0 = Debug|Win32
+		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Release|Win32.ActiveCfg = Release|Win32
+		{8173B0AE-317E-43A7-9A7F-ED7243985D92}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

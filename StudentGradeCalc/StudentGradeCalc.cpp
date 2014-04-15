@@ -5,7 +5,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::vector<Student_info> students;
+	student_list_t students;
 	Student_info record;
 	std::string::size_type maxlen = 0;
 
@@ -17,13 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	std::sort(students.begin(), students.end(), compare);
 
-	for (std::vector<Student_info>::size_type i = 0; i != students.size(); ++i)
+	for (student_list_ci iter = students.begin(); iter != students.end(); iter++)
 	{
-		std::cout << students[i].name << std::string(maxlen + 1 - students[i].name.size(), ' ');
+		std::cout << iter->name << std::string(maxlen + 1 - iter->name.size(), ' ');
 
 		try
 		{
-			double final_grade = grade(students[i]);
+			double final_grade = iter->final_grade;
 			std::streamsize prec = std::cout.precision();
 			std::cout << std::setprecision(3) << final_grade << std::setprecision(prec);
 		}

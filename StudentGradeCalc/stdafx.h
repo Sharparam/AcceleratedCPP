@@ -16,6 +16,7 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+#include <list>
 
 #include "grade.h"
 #include "student_info.h"
