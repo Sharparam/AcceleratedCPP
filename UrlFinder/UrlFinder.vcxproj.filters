@@ -15,48 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="median.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="student_info.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="grade.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StudentGradeCalc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="average.h">
+    <ClInclude Include="url.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StudentGradeCalc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="median.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="student_info.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="grade.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="average.cpp">
+    <ClCompile Include="url.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

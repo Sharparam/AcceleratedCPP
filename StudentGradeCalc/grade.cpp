@@ -4,6 +4,7 @@
 #include "grade.h"
 #include "median.h"
 #include "student_info.h"
+#include "average.h"
 
 double grade(double midterm, double final, double homework)
 {
@@ -19,5 +20,22 @@ double grade(double midterm, double final, const std::vector<double>& hw)
 
 double grade(const Student_info& s)
 {
-	return s.final_grade; //grade(s.midterm, s.final, s.homework);
+	return grade(s.midterm, s.finals, s.homework);
+}
+
+double safe_grade_aux(const Student_info &student)
+{
+	try
+	{
+		return grade(student);
+	}
+	catch (std::domain_error)
+	{
+		return grade(student.midterm, student.finals, 0);
+	}
+}
+
+double average_grade(const Student_info &student)
+{
+	return grade(student.midterm, student.finals, average(student.homework));
 }

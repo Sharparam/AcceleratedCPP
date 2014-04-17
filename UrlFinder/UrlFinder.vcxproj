@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F323955F-0FBA-407F-AC8E-9DFE8F1E45D2}</ProjectGuid>
+    <ProjectGuid>{5A9E47B1-B79C-45AE-8190-3C9E463BB7B4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StringSplitter</RootNamespace>
+    <RootNamespace>UrlFinder</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,12 +76,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="split.cpp" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="url.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
-    <ClInclude Include="split.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="url.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
